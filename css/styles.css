@@ -45,7 +45,8 @@ h6 {
   color: #fff; }
 
 .dark-mode-header {
-  background-image: url("../img/header-dark.jpg") !important; }
+    /*background-image: url("../img/header-dark.jpg") !important;
+    background-image: url("../img/compilationGIF-dark.gif") !important;*/ }
 
 .dark-mode-muted {
   color: rgba(255, 255, 255, 0.7); }
@@ -248,15 +249,17 @@ img::-moz-selection {
           color: #b80f0a; } }
 
 header.masthead {
-  padding-top: 10rem;
-  padding-bottom: calc(10rem - 56px);
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/header.png");
-  background-position: center center;
-  background-color: #212529;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    /*background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/header.png");*/
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('../img/compilationGIF.gif');
+    background-position: center center;
+    background-color: #212529;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
   header.masthead hr {
     margin-top: 30px;
     margin-bottom: 30px; }
